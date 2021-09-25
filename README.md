@@ -1,2 +1,4 @@
-# 8puzzle
-Vanilla Javascript project. 8 puzzle game. 
+# [8puzzle]('rovshentagangylyjov.github.io/8puzzle)
+
+### It's my first javascript project. Enjoy!
+

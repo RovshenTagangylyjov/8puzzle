@@ -1,0 +1,29 @@
+.page1 .animation-bar{
+    width: 30em;
+    height: 12em;
+    margin-top: 3em;
+    box-shadow: var(--shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.page1 .animation-bar > div{
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+    color: var(--primary);
+    transform: translate(0, 2.3em);
+    transition: all 500ms ease-out;
+}
+
+.page1 .animation-bar .current-text{
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.7);
+    transform: translate(0);
+}

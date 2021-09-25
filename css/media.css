@@ -1,0 +1,47 @@
+@media only screen and (max-width: 850px){
+    html, body{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    html, body{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    html, body{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    html, body{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    html, body{
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    html, body{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    html, body{
+        font-size: 5px;
+    }
+}
+
+@media only screen and (max-width: 256px){
+    html, body{
+        font-size: 4px;
+    }
+}

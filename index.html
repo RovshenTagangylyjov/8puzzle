@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Puzzle</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/page1.css">
+    <link rel="stylesheet" href="css/page2.css">
+    <link rel="stylesheet" href="css/page3.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section class="page1 current-page">
+        <h1 class="header">8 puzzle game</h1>
+        <div class="animation-bar">
+            <div class="first current-text">JavaScript Project</div>
+            <div class="second"> 
+                <span>by</span> <span>Rovshen Tagangylyjov</span>
+            </div>
+            <div class="third">Enjoy!</div>
+        </div>
+        <button class="btn" id="start-btn">start</button>
+    </section>
+    <section class="page2">
+        <h1 class="header">pick an image</h1>
+        <div class="pics" id="pics">
+            <div class="pic"><div class="front"></div></div>
+            <div class="pic"><div class="front"></div></div>
+            <div class="pic"><div class="front"></div></div>
+        </div>
+        <button class="btn" id="select-btn">Continue</button>
+    </section>
+    <section class="page3">
+        <div class="puzzle">
+            <div id="a0" class="a0"></div>
+            <div id="a1" class="a1"><div></div></div>
+            <div id="a2" class="a2"><div></div></div>
+            <div id="a3" class="a3"><div></div></div>
+            <div id="a4" class="a4"><div></div></div>
+            <div id="a5" class="a5"><div></div></div>
+            <div id="a6" class="a6"><div></div></div>
+            <div id="a7" class="a7"><div></div></div>
+            <div id="a8" class="a8"><div></div></div>
+        </div>
+        <h1 id="h1">Select Shuffle Amount</h1>
+        <h1 id="h2">Solve the puzzle now!</h1>
+        <h5 id="h3">Press F5 to restart</h5>
+        <select name="select" id="shuffle">
+            <option value="0" disabled selected>Choose Shuffle</option>
+            <option value="3">3 Moves</option>
+            <option value="30">30 Moves</option>
+            <option value="50">50 Moves</option>
+        </select>
+        <button class="btn btn-disabled" id="shuffle-btn">Shuffle</button>
+        <div id="won" class="unvisible">
+            <h1>Congratulations!</h1>
+            <h5>Press F5 to restart</h5>
+        </div>
+    </section>
+</body>
+</html>
